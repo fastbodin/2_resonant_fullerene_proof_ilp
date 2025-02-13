@@ -81,7 +81,7 @@ If you use this code in your research, please cite it via:
 ```
 @software{Slobodin_ILPs_to_prove_2025,
   author = {Slobodin, A.},
-  month = Jan,
+  month = Feb,
   title = {{ILPs to prove necessary and sufficient conditions for 2-anionic-resonance in fullerenes}},
   url = {https://github.com/fastbodin/2_resonant_fullerene_proof_ilps},
   version = {1.0.0},
