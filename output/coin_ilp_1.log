@@ -2,7 +2,7 @@ Welcome to the CBC MILP Solver
 Version: 2.10.10 
 Build Date: Aug  1 2023 
 
-command line - cbc /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/c7589a0a075e4d44b51483163e4eb76b-pulp.mps -max -timeMode elapsed -branch -printingOptions all -solution /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/c7589a0a075e4d44b51483163e4eb76b-pulp.sol (default strategy 1)
+command line - cbc /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/7bc0eeafcaf04e8f86d4d111f9c1937b-pulp.mps -max -timeMode elapsed -branch -printingOptions all -solution /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/7bc0eeafcaf04e8f86d4d111f9c1937b-pulp.sol (default strategy 1)
 At line 2 NAME          MODEL
 At line 3 ROWS
 At line 118 COLUMNS
@@ -38,7 +38,7 @@ Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cu
 Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 9 row cuts average 58.0 elements, 0 column cuts (0 active)  in 0.007 seconds - new frequency is -100
 Cbc0014I Cut generator 5 (FlowCover) - 1 row cuts average 23.0 elements, 0 column cuts (0 active)  in 0.006 seconds - new frequency is -100
 Cbc0014I Cut generator 6 (TwoMirCuts) - 43 row cuts average 54.5 elements, 0 column cuts (0 active)  in 0.004 seconds - new frequency is 1
-Cbc0010I After 0 nodes, 1 on tree, -1e+50 best solution, best possible 34 (0.12 seconds)
+Cbc0010I After 0 nodes, 1 on tree, -1e+50 best solution, best possible 34 (0.13 seconds)
 Cbc0016I Integer solution of 32 found by strong branching after 2223 iterations and 7 nodes (0.17 seconds)
 Cbc0038I Full problem 111 rows 89 columns, reduced to 45 rows 29 columns
 Cbc0016I Integer solution of 33 found by strong branching after 2282 iterations and 9 nodes (0.18 seconds)

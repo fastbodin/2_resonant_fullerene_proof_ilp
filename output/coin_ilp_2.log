@@ -2,7 +2,7 @@ Welcome to the CBC MILP Solver
 Version: 2.10.10 
 Build Date: Aug  1 2023 
 
-command line - cbc /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/2c5bd196b79e479d9475cef1ad745544-pulp.mps -max -timeMode elapsed -branch -printingOptions all -solution /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/2c5bd196b79e479d9475cef1ad745544-pulp.sol (default strategy 1)
+command line - cbc /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/0939dc29af3946e2ac482df94add201e-pulp.mps -max -timeMode elapsed -branch -printingOptions all -solution /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/0939dc29af3946e2ac482df94add201e-pulp.sol (default strategy 1)
 At line 2 NAME          MODEL
 At line 3 ROWS
 At line 119 COLUMNS
@@ -41,7 +41,7 @@ Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 39 row cuts average 54.4 elem
 Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.004 seconds - new frequency is -100
 Cbc0014I Cut generator 6 (TwoMirCuts) - 80 row cuts average 53.0 elements, 0 column cuts (0 active)  in 0.004 seconds - new frequency is 1
 Cbc0010I After 0 nodes, 1 on tree, -1e+50 best solution, best possible 34.367875 (0.08 seconds)
-Cbc0001I Search completed - best objective -1e+50, took 69987 iterations and 4082 nodes (1.36 seconds)
+Cbc0001I Search completed - best objective -1e+50, took 69987 iterations and 4082 nodes (1.38 seconds)
 Cbc0032I Strong branching done 5942 times (76511 iterations), fathomed 191 nodes and fixed 409 variables
 Cbc0041I Maximum depth 23, 0 variables fixed on reduced cost (complete fathoming 83 times, 3366 nodes taking 47129 iterations)
 Cuts at root node changed objective from 35.3333 to 34.3679
@@ -60,8 +60,8 @@ No feasible solution found
 Enumerated nodes:               4082
 Total iterations:               69987
 Time (CPU seconds):             1.17
-Time (Wallclock seconds):       1.36
+Time (Wallclock seconds):       1.38
 
 Option for printingOptions changed from normal to all
-Total time (CPU seconds):       1.17   (Wallclock seconds):       1.36
+Total time (CPU seconds):       1.17   (Wallclock seconds):       1.38
 

@@ -59,13 +59,13 @@ Output from my machine:
 ```
 Available solvers on build: ['GUROBI_CMD', 'MOSEK', 'PULP_CBC_CMD', 'COIN_CMD', 'SCIP_CMD']
 
-Proof of Lemma 4.26
+Proof of Lemma 4.33
 
 SCIP: Optimal solution found. Objective value: 33.0
 Gurobi: Optimal solution found. Objective value: 33.0
 COIN_CMD: Optimal solution found. Objective value: 33.0
 
-Proof of Theorem 4.4
+Proof of Theorem 4.35
 
 SCIP: Infeasible
 Gurobi: Not Solved

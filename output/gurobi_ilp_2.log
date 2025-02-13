@@ -116,3 +116,62 @@ Best objective -, best bound -, gap -
 
 Unable to retrieve attribute 'X'
 
+
+Gurobi 11.0.3 (mac64[arm], gurobi_cl) logging started Wed Feb 12 16:53:16 2025
+
+Set parameter Username
+Set parameter LogFile to value "output/gurobi_ilp_2.log"
+Using license file /Users/aaronslobodin/gurobi.lic
+Academic license - for non-commercial use only - expires 2025-12-30
+
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (mac64[arm] - Darwin 24.2.0 24C101)
+Copyright (c) 2024, Gurobi Optimization, LLC
+
+Read LP format model from file /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/74e81b8ebc7e4d6fa9a8b7b3ee4634c7-pulp.lp
+Reading time = 0.00 seconds
+OBJ: 114 rows, 90 columns, 807 nonzeros
+
+CPU model: Apple M1 Pro
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 114 rows, 90 columns and 807 nonzeros
+Model fingerprint: 0x87760e1c
+Variable types: 0 continuous, 90 integer (84 binary)
+Coefficient statistics:
+  Matrix range     [5e-01, 5e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+01]
+Presolve removed 4 rows and 23 columns
+Presolve time: 0.00s
+Presolved: 110 rows, 67 columns, 593 nonzeros
+Variable types: 0 continuous, 67 integer (64 binary)
+
+Root relaxation: objective 3.533333e+01, 21 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   35.33333    0    5          -   35.33333      -     -    0s
+     0     0   35.00000    0    8          -   35.00000      -     -    0s
+     0     0   35.00000    0    6          -   35.00000      -     -    0s
+     0     0   35.00000    0    6          -   35.00000      -     -    0s
+     0     0   34.92857    0    6          -   34.92857      -     -    0s
+     0     2   34.66667    0    6          -   34.66667      -     -    0s
+
+Cutting planes:
+  Gomory: 16
+  MIR: 7
+  Zero half: 2
+
+Explored 23 nodes (230 simplex iterations) in 0.03 seconds (0.02 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 0
+No other solutions better than -1e+100
+
+Model is infeasible or unbounded
+Best objective -, best bound -, gap -
+
+Unable to retrieve attribute 'X'
+
