@@ -238,7 +238,7 @@ def check_solve(ilp, solver_name, vars):
 
 def ilp():
 
-    ilp = LpProblem("ILP", LpMinimize)
+    ilp = LpProblem("ILP")
 
     vars = make_variables()
 
@@ -256,9 +256,6 @@ def ilp():
     add_cons_type_12(ilp, vars) # necessary, else always finds sol
     add_cons_type_13(ilp, vars) # necessary, else unbounded
 
-    # Objective function
-    ilp += vars['N']
-
     # write lp file
     ilp.writeLP('output/ilp.lp')
 
@@ -274,7 +271,6 @@ def ilp():
     coin_sol = ilp.solve(getSolver('COIN_CMD', msg = False,
                                    logPath="output/coin_ilp.log"))
     check_solve(coin_sol, 'COIN_CMD', vars)
-
 
 def main():
     print("Available solvers on build:", listSolvers(onlyAvailable=True), "\n")
