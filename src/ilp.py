@@ -85,8 +85,8 @@ def add_cons_type_8(ilp, vars):
 
 def add_cons_type_7(ilp, vars):
     ilp += ((vars['N'] - vars['s'] + 11)/2 ==
-            10 + vars['y22020'] + vars['y00330'] +
-            vars['y20120'] + vars['y02120']
+            10 + vars['y22020'] + vars['y00330'] + vars['y20120'] +
+            vars['y02120']
             )
 
 def add_cons_type_6(ilp, vars):
@@ -169,13 +169,13 @@ def add_cons_type_2(ilp, vars):
 def make_variables():
     # Constraint Type 1 is used when defining all variables
 
-    # Variables from Table 1
+    # Variables from Table 4.2
     y22020 = LpVariable('f_{22002}', lowBound=0, cat = 'Integer')
     y00330 = LpVariable('f_{00033}', lowBound=0, cat = 'Integer')
     y20120 = LpVariable('f_{20012}', lowBound=0, cat = 'Integer')
     y02120 = LpVariable('f_{02012}', lowBound=0, cat = 'Integer')
 
-    # Variables from Table 2
+    # Variables from Table 4.3
     y00212 = [LpVariable('f_{'+str(i)+',00212}', cat = 'Binary')
               for i in range(7)]
     y00213 = [LpVariable('f_{'+str(i)+',00213}', cat = 'Binary')
@@ -189,7 +189,7 @@ def make_variables():
     y02004 = [LpVariable('f_{'+str(i)+',02004}', cat = 'Binary')
               for i in range(7)]
 
-    # Variables from Table 3
+    # Variables from Table 4.4
     y20112 = [LpVariable('f_{'+str(i)+',20112}', cat = 'Binary')
               for i in range(7)]
     y02112 = [LpVariable('f_{'+str(i)+',02112}', cat = 'Binary')
@@ -199,11 +199,9 @@ def make_variables():
     z02112 = [LpVariable('g_{'+str(i)+',02112}', cat = 'Binary')
               for i in range(7)]
 
-    # Variables from Table 4
+    # Variables from Table 4.5
     s = LpVariable('s', lowBound = 0, cat = 'Integer')
-    a = LpVariable('a', lowBound = 0, cat = 'Integer')
-    b = LpVariable('b', lowBound = 0, cat = 'Integer')
-    N = LpVariable('N', lowBound = 0, cat = 'Integer')
+    n = LpVariable('N', lowBound = 0, cat = 'Integer')
 
     # Return all variables in a dict
     return {
@@ -222,9 +220,7 @@ def make_variables():
         'z20112': z20112,
         'z02112': z02112,
         's': s,
-        'a': a,
-        'b': b,
-        'N': N
+        'N': n
     }
 
 def check_solve(ilp, solver_name, vars):

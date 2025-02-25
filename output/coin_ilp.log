@@ -2,7 +2,7 @@ Welcome to the CBC MILP Solver
 Version: 2.10.10 
 Build Date: Aug  1 2023 
 
-command line - cbc /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/20ccfa3a7b1044769098d232eaa52af3-pulp.mps -timeMode elapsed -branch -printingOptions all -solution /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/20ccfa3a7b1044769098d232eaa52af3-pulp.sol (default strategy 1)
+command line - cbc /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/c0fad50684ff4c83a4ba641963bcad06-pulp.mps -timeMode elapsed -branch -printingOptions all -solution /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/c0fad50684ff4c83a4ba641963bcad06-pulp.sol (default strategy 1)
 At line 2 NAME          MODEL
 At line 3 ROWS
 At line 118 COLUMNS
@@ -132,7 +132,7 @@ Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 14 row cuts average 50.9 elem
 Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.010 seconds - new frequency is -100
 Cbc0014I Cut generator 6 (TwoMirCuts) - 91 row cuts average 64.6 elements, 0 column cuts (0 active)  in 0.009 seconds - new frequency is -100
 Cbc0010I After 0 nodes, 1 on tree, 1e+50 best solution, best possible 0 (0.29 seconds)
-Cbc0001I Search completed - best objective 1e+50, took 8445 iterations and 150 nodes (0.63 seconds)
+Cbc0001I Search completed - best objective 1e+50, took 8445 iterations and 150 nodes (0.61 seconds)
 Cbc0032I Strong branching done 1584 times (20295 iterations), fathomed 60 nodes and fixed 107 variables
 Cbc0035I Maximum depth 22, 0 variables fixed on reduced cost
 Cuts at root node changed objective from 0 to 0
@@ -151,8 +151,8 @@ No feasible solution found
 Enumerated nodes:               150
 Total iterations:               8445
 Time (CPU seconds):             0.57
-Time (Wallclock seconds):       0.63
+Time (Wallclock seconds):       0.61
 
 Option for printingOptions changed from normal to all
-Total time (CPU seconds):       0.57   (Wallclock seconds):       0.63
+Total time (CPU seconds):       0.57   (Wallclock seconds):       0.61
 
