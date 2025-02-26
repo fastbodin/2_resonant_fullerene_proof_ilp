@@ -170,33 +170,33 @@ def make_variables():
     # Constraint Type 1 is used when defining all variables
 
     # Variables from Table 4.2
-    y22020 = LpVariable('f_{22002}', lowBound=0, cat = 'Integer')
-    y00330 = LpVariable('f_{00033}', lowBound=0, cat = 'Integer')
-    y20120 = LpVariable('f_{20012}', lowBound=0, cat = 'Integer')
-    y02120 = LpVariable('f_{02012}', lowBound=0, cat = 'Integer')
+    y22020 = LpVariable('y_{22002}', lowBound=0, cat = 'Integer')
+    y00330 = LpVariable('y_{00033}', lowBound=0, cat = 'Integer')
+    y20120 = LpVariable('y_{20012}', lowBound=0, cat = 'Integer')
+    y02120 = LpVariable('y_{02012}', lowBound=0, cat = 'Integer')
 
     # Variables from Table 4.3
-    y00212 = [LpVariable('f_{'+str(i)+',00212}', cat = 'Binary')
+    y00212 = [LpVariable('y_{'+str(i)+',00212}', cat = 'Binary')
               for i in range(7)]
-    y00213 = [LpVariable('f_{'+str(i)+',00213}', cat = 'Binary')
+    y00213 = [LpVariable('y_{'+str(i)+',00213}', cat = 'Binary')
               for i in range(7)]
-    y20003 = [LpVariable('f_{'+str(i)+',20003}', cat = 'Binary')
+    y20003 = [LpVariable('y_{'+str(i)+',20003}', cat = 'Binary')
               for i in range(7)]
-    y02003 = [LpVariable('f_{'+str(i)+',02003}', cat = 'Binary')
+    y02003 = [LpVariable('y_{'+str(i)+',02003}', cat = 'Binary')
               for i in range(7)]
-    y20004 = [LpVariable('f_{'+str(i)+',20004}', cat = 'Binary')
+    y20004 = [LpVariable('y_{'+str(i)+',20004}', cat = 'Binary')
               for i in range(7)]
-    y02004 = [LpVariable('f_{'+str(i)+',02004}', cat = 'Binary')
+    y02004 = [LpVariable('y_{'+str(i)+',02004}', cat = 'Binary')
               for i in range(7)]
 
     # Variables from Table 4.4
-    y20112 = [LpVariable('f_{'+str(i)+',20112}', cat = 'Binary')
+    y20112 = [LpVariable('y_{'+str(i)+',20112}', cat = 'Binary')
               for i in range(7)]
-    y02112 = [LpVariable('f_{'+str(i)+',02112}', cat = 'Binary')
+    y02112 = [LpVariable('y_{'+str(i)+',02112}', cat = 'Binary')
               for i in range(7)]
-    z20112 = [LpVariable('g_{'+str(i)+',20112}', cat = 'Binary')
+    z20112 = [LpVariable('z_{'+str(i)+',20112}', cat = 'Binary')
               for i in range(7)]
-    z02112 = [LpVariable('g_{'+str(i)+',02112}', cat = 'Binary')
+    z02112 = [LpVariable('z_{'+str(i)+',02112}', cat = 'Binary')
               for i in range(7)]
 
     # Variables from Table 4.5
