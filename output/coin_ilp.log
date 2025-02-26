@@ -2,7 +2,7 @@ Welcome to the CBC MILP Solver
 Version: 2.10.10 
 Build Date: Aug  1 2023 
 
-command line - cbc /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/86cfc21355904f29aa5bc9fe69a0fead-pulp.mps -timeMode elapsed -branch -printingOptions all -solution /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/86cfc21355904f29aa5bc9fe69a0fead-pulp.sol (default strategy 1)
+command line - cbc /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/6d485ae47c9b404db9856f56b946e558-pulp.mps -timeMode elapsed -branch -printingOptions all -solution /var/folders/xx/fsz3wvqx27n46ckqdt6dl4gm0000gn/T/6d485ae47c9b404db9856f56b946e558-pulp.sol (default strategy 1)
 At line 2 NAME          MODEL
 At line 3 ROWS
 At line 118 COLUMNS
@@ -125,19 +125,19 @@ Cbc0038I After 0.09 seconds - Feasibility pump exiting - took 0.09 seconds
 Cbc0031I 6 added rows had average density of 68.666667
 Cbc0013I At root node, 6 cuts changed objective from 0 to 0 in 100 passes
 Cbc0014I Cut generator 0 (Probing) - 56 row cuts average 59.4 elements, 0 column cuts (0 active)  in 0.026 seconds - new frequency is -100
-Cbc0014I Cut generator 1 (Gomory) - 592 row cuts average 72.6 elements, 0 column cuts (0 active)  in 0.030 seconds - new frequency is -100
+Cbc0014I Cut generator 1 (Gomory) - 592 row cuts average 72.6 elements, 0 column cuts (0 active)  in 0.031 seconds - new frequency is -100
 Cbc0014I Cut generator 2 (Knapsack) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.007 seconds - new frequency is -100
 Cbc0014I Cut generator 3 (Clique) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.001 seconds - new frequency is -100
 Cbc0014I Cut generator 4 (MixedIntegerRounding2) - 11 row cuts average 41.7 elements, 0 column cuts (0 active)  in 0.016 seconds - new frequency is -100
 Cbc0014I Cut generator 5 (FlowCover) - 0 row cuts average 0.0 elements, 0 column cuts (0 active)  in 0.009 seconds - new frequency is -100
 Cbc0014I Cut generator 6 (TwoMirCuts) - 85 row cuts average 65.6 elements, 0 column cuts (0 active)  in 0.008 seconds - new frequency is -100
 Cbc0010I After 0 nodes, 1 on tree, 1e+50 best solution, best possible 0 (0.28 seconds)
-Cbc0001I Search completed - best objective 1e+50, took 9933 iterations and 198 nodes (0.81 seconds)
+Cbc0001I Search completed - best objective 1e+50, took 9933 iterations and 198 nodes (0.82 seconds)
 Cbc0032I Strong branching done 2358 times (31746 iterations), fathomed 81 nodes and fixed 103 variables
 Cbc0035I Maximum depth 26, 0 variables fixed on reduced cost
 Cuts at root node changed objective from 0 to 0
 Probing was tried 100 times and created 56 cuts of which 0 were active after adding rounds of cuts (0.026 seconds)
-Gomory was tried 100 times and created 592 cuts of which 0 were active after adding rounds of cuts (0.030 seconds)
+Gomory was tried 100 times and created 592 cuts of which 0 were active after adding rounds of cuts (0.031 seconds)
 Knapsack was tried 100 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.007 seconds)
 Clique was tried 100 times and created 0 cuts of which 0 were active after adding rounds of cuts (0.001 seconds)
 MixedIntegerRounding2 was tried 100 times and created 11 cuts of which 0 were active after adding rounds of cuts (0.016 seconds)
@@ -151,7 +151,7 @@ No feasible solution found
 Enumerated nodes:               198
 Total iterations:               9933
 Time (CPU seconds):             0.70
-Time (Wallclock seconds):       0.81
+Time (Wallclock seconds):       0.82
 
 Option for printingOptions changed from normal to all
 Total time (CPU seconds):       0.70   (Wallclock seconds):       0.82
