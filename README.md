@@ -50,14 +50,14 @@ python src/ilp.py
 The first command line output is the available solvers on your machine. Again,
 comment out the code in `src/ilp.py` corresponding to solvers you do not have
 downloaded. The subsequent output is the lack of a feasible integer solution to
-`ilp` (Theorem 4.35).
+`ilp` (Theorem 4.36).
 
 Output from my machine:
 
 ```
 Available solvers on build: ['GUROBI_CMD', 'MOSEK', 'PULP_CBC_CMD', 'COIN_CMD', 'SCIP_CMD']
 
-Proof of Theorem 4.35
+Proof of Theorem 4.36
 
 SCIP: Infeasible
 Gurobi: Not Solved
@@ -70,7 +70,7 @@ Log files for each solver used and LP files for `ilp` are written to `output`.
 If you use this code in your research, please cite it via:
 
 ```
-@software{Slobodin_ILPs_to_prove_2025,
+@software{Slobodin_ILP_to_prove_2025,
   author = {Slobodin, A.},
   month = Feb,
   title = {{ILP to prove necessary and sufficient conditions for 2-anionic-resonance in fullerenes}},

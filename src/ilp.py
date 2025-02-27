@@ -271,7 +271,7 @@ def ilp():
 def main():
     print("Available solvers on build:", listSolvers(onlyAvailable=True), "\n")
 
-    print("\nProof of Theorem 4.35\n")
+    print("\nProof of Theorem 4.36\n")
     ilp()
 
 main()
